@@ -10,15 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "items": "minecraft:diamond_sword",
-                  "components": {
-                    "minecraft:custom_model_data": {
-                      "flags": [],
-                      "strings": [
-                        "1"
-                      ]
-                    }
-                  }
+                  "items": "minecraft:diamond_sword"
                 }
               }
             }
@@ -27,8 +19,12 @@
       }
     }
   },
-  "requirements": [],
+  "requirements": [
+    [
+      "test1"
+    ]
+  ],
   "rewards": {
-    "function": "example:left_click"
+    "function": "mddev_test1:sword/check"
   }
 }
